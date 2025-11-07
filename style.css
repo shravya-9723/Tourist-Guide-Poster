@@ -91,7 +91,10 @@ background-color: #1D3557;
   border: 4px solid white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+.activities {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
 .guide{
 
  width: 400px;
