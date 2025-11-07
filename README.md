@@ -8,11 +8,11 @@ Built using **HTML5** and **CSS3**, this project highlights clean structure, int
 ---
 
 ## 🌐 Live Preview
-View the Page
-```
-https://shravya-9723.github.io/Tourist-Guide-Poster/
+View the Page:
 
-```
+[Visit Here](https://shravya-9723.github.io/Tourist-Guide-Poster/)
+
+
 
 ---
 
