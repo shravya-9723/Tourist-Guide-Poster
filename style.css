@@ -160,12 +160,6 @@ background-color: #1D3557;
 
 /* ---------- RESPONSIVENESS FOR MOBILE ---------- */
 
-/* For tablets and small laptops */
-@media (max-width: 768px) {
-  /* Header text slightly smaller */
-  #heading {
-    font-size: 1.5rem;
-  }
 
   #para {
     font-size: 0.9rem;
@@ -183,16 +177,7 @@ background-color: #1D3557;
   }
 
   /* Guide card adapts to smaller width */
-  .guide {
-    width: 90%;
-  }
-}
-
-/* For small phones (under 480px width) */
-@media (max-width: 480px) {
-  #heading {
-    font-size: 1.2rem;
-  }
+ 
 
   #para {
     font-size: 0.8rem;
@@ -218,4 +203,14 @@ background-color: #1D3557;
     width: 90%;
     font-size: 0.9rem;
   }
+}
+
+/* ...all your normal styles above... */
+
+/* ---------- RESPONSIVENESS FOR MOBILE ---------- */
+@media (max-width: 768px) {
+  /* your styles here */
+}
+@media (max-width: 480px) {
+  /* your styles here */
 }
