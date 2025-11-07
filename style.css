@@ -157,3 +157,65 @@ background-color: #1D3557;
   opacity: 0;                /* makes them invisible */
   transition: opacity 0.3s ease;  /* smooth fade out */
 }
+
+/* ---------- RESPONSIVENESS FOR MOBILE ---------- */
+
+/* For tablets and small laptops */
+@media (max-width: 768px) {
+  /* Header text slightly smaller */
+  #heading {
+    font-size: 1.5rem;
+  }
+
+  #para {
+    font-size: 0.9rem;
+  }
+
+  /* Activity section spacing */
+  .activities {
+    gap: 25px;
+  }
+
+  /* Activity images smaller but keep circular */
+  #gol, #hus, #chow {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Guide card adapts to smaller width */
+  .guide {
+    width: 90%;
+  }
+}
+
+/* For small phones (under 480px width) */
+@media (max-width: 480px) {
+  #heading {
+    font-size: 1.2rem;
+  }
+
+  #para {
+    font-size: 0.8rem;
+  }
+
+  .activities h2 {
+    font-size: 1.2rem;
+  }
+
+  /* Circle images smaller again for phones */
+  #gol, #hus, #chow {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* Reduce paragraph and heading text sizes */
+  .activities p {
+    font-size: 0.85rem;
+  }
+
+  /* Make guide smaller and centered */
+  .guide {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+}
