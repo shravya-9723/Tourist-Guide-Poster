@@ -78,7 +78,4 @@ This project is open-source and free to use for educational purposes.
 
 ```
 
----
 
-Would you like me to make a **shorter (1-minute GitHub profile-style)** version of this README too — something minimal but aesthetic for the repo front page?
-```
